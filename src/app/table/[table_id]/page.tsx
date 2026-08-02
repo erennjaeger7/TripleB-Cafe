@@ -2,8 +2,8 @@
 
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
-import { supabase } from '@/lib/supabase';
-import { MENU_ITEMS, MenuItem } from '@/config/menu';
+import { supabase } from '../../supabase';
+import { MENU_ITEMS, MenuItem } from '../../menu';
 import { ShoppingBag, Sparkles, CheckCircle, Clock, Wifi, Compass, ChevronRight } from 'lucide-react';
 
 interface CartItem extends MenuItem {
