@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { supabase } from '@/lib/supabase';
+import { supabase } from '../../supabase';
 import { CreditCard, Trash2, TrendingUp, Coffee, Lock, User, Eye, EyeOff } from 'lucide-react';
 
 interface Table {
